@@ -1,6 +1,6 @@
 $(document).ready(function(){
-	var cols = 10;
-	var rows = 10;
+	var cols = 20;
+	var rows = 20;
 	var board = $("#board");
 
 	setup(cols, rows, board);

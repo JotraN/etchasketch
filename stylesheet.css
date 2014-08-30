@@ -1,12 +1,13 @@
 #board {
 	border: 1px solid black;
-	height: 600px;
-	width: 600px;
+	height: 800px;
+	width: 800px;
+	margin: 1% auto 0 auto;
 }
 
 .square {
 	background: white;
-	border: 1px solid black;
+	border: 1px solid grey;
 	display: inline-block;
 	margin: 0;
 	padding: 0;
@@ -15,6 +16,8 @@
 #button {
 	height: 30px;
 	width: 100px;
+	margin: 1% auto 9 auto;
+	border: 2px solid black;
 }
 
 #button:hover {
