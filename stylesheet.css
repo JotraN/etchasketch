@@ -1,0 +1,22 @@
+#board {
+	border: 1px solid black;
+	height: 600px;
+	width: 600px;
+}
+
+.square {
+	background: white;
+	border: 1px solid black;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+#button {
+	height: 30px;
+	width: 100px;
+}
+
+#button:hover {
+	cursor: pointer;
+}
